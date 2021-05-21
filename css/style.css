@@ -1,11 +1,7 @@
 /*------------------------------------------------------------------
 
     Main Style Stylesheet
-    Project:        BEAM. |  
-    Version:        1.0
-    Author:         Bakhtrai Badr
-    Last change:    9/12/2018
-    Primary use:    App And Software Showcase 
+    Project:        CrowdSafe 
 
 -------------------------------------------------------------------*/
 
@@ -19,8 +15,8 @@
    4*)Navbar
    5*)Banner
    6*)About
-   7*)Services
-   8*)Features
+   7*)businesses
+   8*)customers
    9*)Prices
    10*)Testimonials
    11*)Video PopUp
@@ -300,52 +296,51 @@ h4 {
 }
 
 /*=======================================================
-			SERVICES:
+			businesses:
 ========================================================*/
-
-#services {
+#businesses {
     padding: 120px 0;
 }
 
-#services p {
+#businesses p {
     margin: 25px 0;
 }
 
-#services ul li span {
+#businesses ul li span {
     position: relative;
     bottom: 15px;
 }
 
-#services .img-table {
+#businesses .img-table {
     position: relative;
     top: 30px;
 }
 
-#services .caption {
+#businesses .caption {
     position: relative;
     top: 30px;
 }
 
-#services .seconde {
+#businesses .seconde {
     padding: 80px 0;
 }
 
 /*=======================================================
-			FEATURES:
+			customers:
 ========================================================*/
 
-#features {
+#customers {
     padding: 120px 0;
     text-align: center;
 }
 
-#features .feature {
+#customers .feature {
     margin: 30px 0;
     padding: 0 20px;
     transition: all .2s ease-in-out;
 }
 
-#features .feature .feature-icon {
+#customers .feature .feature-icon {
     background: url(../imgs/icons-bg.png);
     background-position: center;
     background-size: cover;
@@ -355,16 +350,16 @@ h4 {
     height: 125px;
 }
 
-#features .feature .feature-icon svg {
+#customers .feature .feature-icon svg {
     position: relative;
     top: 40px;
 }
 
-#features .feature h4 {
+#customers .feature h4 {
     margin: 25px 0;
 }
 
-#features .feature:hover {
+#customers .feature:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     transform: translateY(-3px);
 }
